@@ -1,6 +1,6 @@
 {
-    "name": "twig/twig",
-    "type": "library",
+    "name": "jurasm2/twig",
+    "type": "magento-module",
     "description": "Twig, the flexible, fast, and secure template language for PHP",
     "keywords": ["templating"],
     "homepage": "http://twig.sensiolabs.org",
@@ -27,7 +27,8 @@
         "forum": "https://groups.google.com/forum/#!forum/twig-users"
     },
     "require": {
-        "php": ">=5.2.4"
+        "php": ">=5.2.4",
+        "magento-hackathon/magento-composer-installer": "*"
     },
     "autoload": {
         "psr-0" : {
